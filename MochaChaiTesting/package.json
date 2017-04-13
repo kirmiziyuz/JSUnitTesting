@@ -7,10 +7,12 @@
 
   },
   "devDependencies": {
-
+    "@types/jasmine": "^2.5.47",
+    "jasmine": "^2.5.3",
+    "jasmine-ts": "^0.1.0"
   },
   "scripts": {
-    "test": ""
+    "test": "jasmine-ts './spec/*.spec.ts'"
   },
   "author": "",
   "license": "ISC"
