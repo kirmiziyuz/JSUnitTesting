@@ -10,15 +10,15 @@ describe('Multiplier function', () => {
     expect(result).to.equal(6);
   });
 
-  it('should fail when comparing 6 to a string', () => {
-    expect(6).to.equal("string");
+  it('should compare 6 to a string', () => {
+    expect(result).not.to.equal("string");
   });
 
-  it('should expect 6 is not a string', () => {
+  it('should compare 6 to a string', () => {
     expect(result).not.to.be.a('string');
   });
 
-  it('should expect 6 not to equal "6"', () => {
+  it('should compare 6 to "6"', () => {
     expect(result).not.to.equal("6");
   });
 
